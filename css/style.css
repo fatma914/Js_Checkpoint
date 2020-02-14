@@ -1,0 +1,318 @@
+body {
+    background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, black, black 70.71%), linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+ul {
+    width:100%;
+    height:70px;
+    text-align:center;
+    font-size: large;
+}
+li {
+    display:inline-block;
+    color:white;
+    margin-right:40px;
+    margin-top: 20px
+
+}
+
+a:hover {
+      color: red;
+    }
+
+#slider{
+    overflow:hidden;
+}
+
+#slider figure{
+    position:relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+    left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: -300%;
+    }
+
+    95%{
+        left: -300%;
+    }
+
+    100%{
+        left: -400%;
+    }
+}
+
+
+.course1 {
+        width: 250px;
+        height: 250px;
+        margin-left: 50px;
+        display: inline-block;
+        background-image: url(../res/images2.jpg);
+        background-size: cover;
+        overflow: hidden;
+}
+
+    .course1:hover{
+        background-color:black;
+        opacity: 0.5;
+}
+
+    .btnCourses1{
+        margin-top:120px;
+        display:none;
+}
+
+    .course2 {
+        width: 250px;
+        height: 250px;
+        margin-left: 50px;
+        display: inline-block;
+        background-image: url(../res/images3.jpg);
+        background-size: cover;
+        overflow: hidden;
+}
+
+    .course2:hover{
+        background-color:black;
+        opacity: 0.5;
+}
+
+    .btnCourses2{
+        margin-top:120px;
+        display:none;
+}
+
+    .course3{
+        width: 250px;
+        height: 250px;
+        margin-left: 50px;
+        display: inline-block;
+        background-image: url(../res/images1.jpg);
+        background-size: cover;
+        overflow: hidden;
+}
+
+    .course3:hover{
+        background-color:black;
+        opacity: 0.5;
+}
+
+    .btnCourses3{
+        margin-top:120px;
+        display:none;
+}
+
+    .btnCourses1Hover{
+        display:inline !important;
+        opacity: 1 !important;
+}
+
+    .h4 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+        display:block;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+
+}
+
+
+    h1{
+        color:white !important;
+}
+
+
+    #contactForm>div>input{
+        width:250px;
+}
+    #contactForm>div>select{
+        width:250px;
+}
+    .course1:hover .btnCourses1 {
+        display:inline !important;
+        opacity: 1 !important;
+}
+    .course2:hover .btnCourses1 {
+        display:inline !important;
+        opacity: 1 !important;
+}
+    .course3:hover .btnCourses1 {
+        display:inline !important;
+        opacity: 1 !important;
+}
+
+.cover {
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    background-image: url(../res/dev.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+.cover .heading {
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: black;
+    position: relative;
+    top: 40%;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    margin: 30px 0 40px 500px;
+}   
+
+.txtfeedback{
+    width:500px !important;color: white; margin-top: 10px;
+
+}
+     
+
+.h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    box-sizing: border-box;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+.form{
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+  } 
+  .input{
+  width: 100%;
+  }
+  .form-control{
+          display: block;
+          width: 20%;
+          height: 34px;
+          padding: 6px 12px;
+          font-size: 14px;
+          line-height:1.42857143;
+          background-color: #fff;
+          background-image: none;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+          box-sizing: border-box;
+  }
+  
+  .btn{
+          color: #fff;
+          background-color: #337ab7;
+          border-color: #2e6da4;
+          display: inline-block;
+          margin-top: 20px;
+          margin-bottom: 0;
+          font-weight: 400;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          touch-action: manipulation;
+          cursor: pointer;
+          background-image: none;
+          border: 1px solid transparent;
+          padding: 6px 12px;
+          font-size: 14px;
+          line-height:1.42857143;
+          border-radius: 4px;
+          user-select: none;
+  }
+  
+  h3{
+          color: white;
+  }
+
+  .body{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: white !important;
+}
+.label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: white;
+}
